@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  nodejsjwtauth:
+    image: nodejsjwtauth
+    build: .
+    environment:
+      NODE_ENV: production
+    ports:
+      - 8080:8080
+  
